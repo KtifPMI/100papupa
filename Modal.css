@@ -1,0 +1,29 @@
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+.modal.active {
+    pointer-events: all;
+}
+.modal__content {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: black;
+}
+
+.modal__content {
+    width: 93vw;
+}
+
+@media (min-width: 768px) {
+    .modal__content {
+        width:70vw;
+    }
+}
+@media (min-width: 1025px) {
+  .modal__content {
+      width:50vw;
+  }
+}

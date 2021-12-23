@@ -1,0 +1,80 @@
+.third_screen {
+  font-family: 'Montserrat', sans-serif !important;
+  font-style: normal;
+  background-color: white;
+  padding-top: 70px;
+  margin-bottom: -185px;
+  position: relative;
+
+}
+
+.third_screen_wrapper {
+}
+
+.title {
+  color: #050c33;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.cards_wrapper{
+  position: relative;
+  z-index: 20;
+  padding: 0 12px;
+}
+
+.card_wrapper {
+  padding: 5px;
+}
+
+.card {
+  min-height: 300px;
+  max-height: 320px;
+  height:100%;
+  box-shadow: 20px 20px 40px rgba(5,12,51,.05);
+  border: none;
+}
+
+
+.card_number {
+  font-size: 12px;
+  font-weight: bold;
+  color: #828a9b;
+}
+
+.card_title {
+  font-weight: bold;
+  color: #050c33;
+  font-size: 18px;
+}
+.card_text {
+  position: relative;
+  font-weight: 500;
+  font-size: 16px;
+  z-index: 10;
+}
+
+.card_icon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+}
+
+@media screen and (max-device-width: 769px) {
+  .card {
+    max-height: 255px;
+    min-height: 210px;
+  }
+}
+
+
+@media screen and (max-device-width: 767px) {
+  .title {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+
+}
